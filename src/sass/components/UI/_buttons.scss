@@ -1,0 +1,45 @@
+.submit-button {
+  font-family: inherit;
+  width: 100%;
+  background-color: $primary-color;
+  color: $color-white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: $primary-color-lighter;
+  }
+}
+
+.btn {
+  font-family: inherit;
+  padding: 5px 3px;
+  border-radius: 2px;
+  color: $color-white;
+
+  &--edit {
+    background-color: $primary-color;
+
+    &:hover,
+    &:focus {
+      background-color: $primary-color-lighter;
+    }
+  }
+  &--delete {
+    background-color: $tertiary-color;
+
+    &:hover,
+    &:focus {
+      background-color: $tertiary-color-lighter;
+    }
+  }
+  &--exit {
+    background-color: $tertiary-color;
+    &:hover,
+    &:focus {
+      background-color: $tertiary-color-lighter;
+    }
+  }
+}

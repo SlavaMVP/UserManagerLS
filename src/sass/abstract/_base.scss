@@ -1,0 +1,22 @@
+html {
+  font-family: $default-font-family;
+  //make 1rem = 10px //default 16px
+  font-size: 100%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 700;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-family: $default-font-family;
+    //make 1rem = 10px //default 16px
+    font-size: 60.5%;
+  }
+}

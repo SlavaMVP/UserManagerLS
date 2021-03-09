@@ -1,0 +1,40 @@
+.user-form {
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  padding: 1rem;
+
+  &.invalid {
+    outline: 2px solid $tertiary-color;
+  }
+
+  .input-group {
+    padding-bottom: 1rem;
+
+    [class$="label"] {
+      font-size: 1rem;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      background-color: $color-white;
+      border: 1px solid $color-black;
+
+      &:active,
+      &:focus {
+        background-color: $color-gray;
+        outline: 2px solid $color-black;
+      }
+    }
+
+    & .error-message {
+      color: $tertiary-color;
+    }
+  }
+}

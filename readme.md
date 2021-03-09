@@ -26,7 +26,6 @@
 
 &nbsp;
 
-> - Проект также опубликован на сервере [firebase](https://gist.github.com/Jekins/2bf2d0638163f1294637)
+> - Проект также опубликован на сервере firebase: https://gist.github.com/Jekins/2bf2d0638163f1294637
 
-> - Ссылка на [github](https://gist.github.com/Jekins/2bf2d0638163f1294637)
 

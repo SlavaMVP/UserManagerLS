@@ -1,0 +1,50 @@
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  min-height: 300px;
+}
+
+.users-table {
+  margin: 0 auto;
+
+  min-width: 50rem;
+}
+
+.table {
+  border-collapse: collapse;
+
+  &__header {
+    margin-bottom: 1rem;
+  }
+
+  & td,
+  & th {
+    border: 1px solid $secondary-color;
+    padding: 8px;
+    white-space: nowrap;
+  }
+
+  & tr:nth-child(even) {
+    background-color: $secondary-color-lighter;
+  }
+
+  & tr:hover {
+    background-color: $secondary-color;
+  }
+
+  & th {
+    padding: 15px 0;
+    text-align: center;
+    background-color: $primary-color;
+    color: $color-white;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $primary-color-lighter;
+    }
+  }
+  & .edit-buttons {
+    width: 90px;
+  }
+}

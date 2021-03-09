@@ -1,0 +1,14 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+
+@import "./abstract/variables";
+@import "./abstract/base";
+@import "./abstract/normalize.scss";
+
+@import "./utils/loader";
+@import "./utils/utils";
+
+@import "./components/UI/buttons";
+@import "./components/table.scss";
+@import "./components/form.scss";
+@import "./components/info.scss";
+@import "./components/pagination.scss";
