@@ -1,0 +1,3 @@
+//! Did in immutable way
+
+//! just for immitation of some loading process
